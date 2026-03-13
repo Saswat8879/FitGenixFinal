@@ -1,17 +1,17 @@
 from sqlalchemy import create_engine, event
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
-
 from app.config import settings
 
 is_sqlite = settings.DATABASE_URL.startswith("sqlite")
 
+# The engine configuration
 engine = create_engine(
     settings.DATABASE_URL,
     connect_args={"check_same_thread": False} if is_sqlite else {},
     pool_pre_ping=True,
 )
 
-
+# Ensure this block is properly indented
 if is_sqlite:
     @event.listens_for(engine, "connect")
     def _set_sqlite_pragma(dbapi_connection, connection_record):
@@ -20,13 +20,10 @@ if is_sqlite:
         cursor.execute("PRAGMA foreign_keys=ON")
         cursor.close()
 
-
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-
 
 class Base(DeclarativeBase):
     pass
-
 
 def get_db():
     db = SessionLocal()
