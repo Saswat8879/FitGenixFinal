@@ -1,0 +1,7 @@
+{
+  "name": "user_autoencoder",
+  "saved_at": "2026-03-12T19:53:49.590336",
+  "type": "UserAutoencoder",
+  "input_dim": 30,
+  "embedding_dim": 16
+}

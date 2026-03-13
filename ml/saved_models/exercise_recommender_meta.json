@@ -1,0 +1,9 @@
+{
+  "name": "exercise_recommender",
+  "saved_at": "2026-03-12T19:53:52.406014",
+  "type": "ExerciseRecommender",
+  "auc_roc": 0.6201482643436994,
+  "accuracy": 0.9290853031860226,
+  "ndcg_at_10": 0.986891475727534,
+  "hit_rate_at_5": 1.0
+}

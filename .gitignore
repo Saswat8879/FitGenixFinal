@@ -1,0 +1,153 @@
+# -----------------------------
+# OS and file explorer artifacts
+# -----------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+
+# -----------------------------
+# Editor and IDE artifacts
+# -----------------------------
+.idea/
+*.code-workspace
+
+# Keep only shareable VS Code project files if needed
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# -----------------------------
+# Python artifacts
+# -----------------------------
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+datasets/
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+
+.coverage
+.coverage.*
+htmlcov/
+
+build/
+dist/
+site/
+.eggs/
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -----------------------------
+# Node / Next.js artifacts
+# -----------------------------
+node_modules/
+.npm/
+.pnpm-store/
+
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+.next/
+out/
+.turbo/
+coverage/
+*.tsbuildinfo
+
+# -----------------------------
+# Environment files and secrets
+# -----------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+backend/.env
+frontend/.env.local
+
+# Keep template env files
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Key and certificate material
+*.pem
+*.key
+*.crt
+*.p12
+
+# -----------------------------
+# Logs and runtime traces
+# -----------------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -----------------------------
+# Local databases and runtime state
+# -----------------------------
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# -----------------------------
+# ML and model download caches
+# -----------------------------
+.cache/
+**/.cache/
+.huggingface/
+**/.huggingface/
+
+# Common transformer cache locations
+hf_cache/
+transformers_cache/
+
+# -----------------------------
+# Dataset and large raw data (optional)
+# -----------------------------
+# Uncomment if you do not want to track raw datasets in git.
+# datasets/
+
+# -----------------------------
+# Keep deploy-critical artifacts tracked
+# -----------------------------
+!ml/saved_models/
+!ml/saved_models/**
+!ml/data/processed/
+!ml/data/processed/**
+!backend/data/knowledge_base/
+!backend/data/knowledge_base/**

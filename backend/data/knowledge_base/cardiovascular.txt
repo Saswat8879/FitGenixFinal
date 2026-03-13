@@ -1,0 +1,30 @@
+Cardiovascular Health
+
+Heart disease is the leading cause of death globally. Risk factors include hypertension, high cholesterol, diabetes, smoking, obesity, and physical inactivity.
+
+Blood pressure targets:
+- Normal: <120/80 mmHg
+- Elevated: 120-129/<80 mmHg
+- Hypertension Stage 1: 130-139/80-89 mmHg
+- Hypertension Stage 2: ≥140/≥90 mmHg
+
+Cholesterol targets (AHA guidelines):
+- Total cholesterol: <200 mg/dL
+- LDL ("bad"): <100 mg/dL (or <70 if high risk)
+- HDL ("good"): >40 mg/dL (men), >50 mg/dL (women)
+- Triglycerides: <150 mg/dL
+
+Heart-healthy lifestyle:
+- DASH or Mediterranean diet: rich in fruits, vegetables, whole grains, fish, olive oil
+- Limit sodium to <2300 mg/day (1500 mg if hypertensive)
+- Limit saturated fat to <6% of total calories
+- 150+ minutes of moderate aerobic exercise per week
+- Maintain BMI between 18.5-24.9
+- Manage stress through relaxation techniques
+
+Warning signs of heart problems:
+- Chest pain or discomfort, especially during exertion
+- Shortness of breath during normal activities
+- Unusual fatigue, dizziness, or lightheadedness
+- Irregular heartbeat
+- Seek immediate medical attention for these symptoms

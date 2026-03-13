@@ -1,0 +1,11 @@
+{
+  "name": "diabetes_risk_ensemble",
+  "saved_at": "2026-03-12T19:53:45.930263",
+  "type": "DiabetesRiskModel",
+  "auc_roc": 0.8150000000000001,
+  "accuracy": 0.7142857142857143,
+  "precision": 0.6,
+  "recall": 0.5555555555555556,
+  "f1": 0.5769230769230769,
+  "brier_score": 0.16606333917476276
+}

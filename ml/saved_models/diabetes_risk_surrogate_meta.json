@@ -1,0 +1,12 @@
+{
+  "name": "diabetes_risk_surrogate",
+  "saved_at": "2026-03-12T19:53:45.978917",
+  "type": "DiabetesSurrogateModel",
+  "auc_roc": 0.7439814814814815,
+  "features": [
+    "Age",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Pregnancies"
+  ]
+}

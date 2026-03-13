@@ -1,0 +1,40 @@
+{
+  "Diabetes Risk Model": {
+    "auc_roc": 0.8399449035812673,
+    "brier_score": 0.15788957616883117,
+    "precision": 0.7631578947368421,
+    "recall": 0.5272727272727272,
+    "f1": 0.6236559139784946,
+    "n_test": 154
+  },
+  "User Embedding & Clustering": {
+    "silhouette_score": 0.24590662121772766,
+    "reconstruction_mse": 0.018146032467484474,
+    "n_clusters": 15,
+    "n_users": 500
+  },
+  "Exercise Recommender": {
+    "auc_roc": 0.8886973319725907,
+    "ndcg_at_10": 0.9953227344197688,
+    "precision": 0.9370774830993239,
+    "recall": 0.9983379501385041,
+    "f1": 0.9667381974248928,
+    "n_test": 1957
+  },
+  "Food/Diet Recommender": {
+    "constraint_satisfaction_rate": 1.0,
+    "avg_calorie_deviation_pct": 6.2027777777777775,
+    "scenarios_tested": 4
+  },
+  "Stress Detection": {
+    "auc_roc": 1.0,
+    "brier_score": 0.0006564369887441119,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "n_test": 2000
+  },
+  "_meta": {
+    "elapsed_seconds": 2.64
+  }
+}

@@ -1,0 +1,5933 @@
+[
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 0
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 1
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 2
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 3
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 4
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 5
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 6
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 7
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 8
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 9
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 10
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "asthma_patient",
+    "user_id": 11
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 12
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 13
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 14
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 15
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 16
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 17
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 5,
+    "archetype": "athletic_intermediate",
+    "user_id": 18
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 19
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 20
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 21
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 22
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "post_injury_recovery",
+    "user_id": 23
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 24
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 25
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 26
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 27
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 28
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 29
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 30
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 31
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 32
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 33
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 34
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 35
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 36
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 37
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 38
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 39
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 40
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 5,
+    "archetype": "athletic_intermediate",
+    "user_id": 41
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 42
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 43
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 5,
+    "archetype": "athletic_intermediate",
+    "user_id": 44
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 4,
+    "archetype": "athletic_intermediate",
+    "user_id": 45
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 46
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 47
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 48
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 49
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 50
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 51
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 52
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 53
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 54
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 55
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 56
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 57
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 58
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 59
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 60
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 61
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 62
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 63
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 64
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 65
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 66
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 67
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 68
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 69
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 70
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 71
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 72
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 73
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 74
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 75
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 76
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 77
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 78
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 79
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 80
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 81
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 82
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 83
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 84
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 85
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 86
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 87
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 88
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 89
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 90
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 91
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 92
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 93
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 94
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 95
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 96
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 97
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 98
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 99
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "post_injury_recovery",
+    "user_id": 100
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 101
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 102
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 103
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 104
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 105
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 106
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 107
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 108
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "post_injury_recovery",
+    "user_id": 109
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 110
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 111
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 112
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 113
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 114
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 115
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 116
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 117
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 118
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 119
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 120
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 121
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 122
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 123
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 124
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 125
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 126
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 127
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 128
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 129
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 130
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "asthma_patient",
+    "user_id": 131
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 132
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 133
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 134
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 135
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "asthma_patient",
+    "user_id": 136
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 137
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 138
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 139
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 140
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 141
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "asthma_patient",
+    "user_id": 142
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 143
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 144
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 145
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 146
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 147
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 148
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 149
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 4,
+    "archetype": "athletic_intermediate",
+    "user_id": 150
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "post_injury_recovery",
+    "user_id": 151
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 152
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 153
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 154
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 155
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 156
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 157
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 158
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 159
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 160
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "post_injury_recovery",
+    "user_id": 161
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 162
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 163
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 164
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 165
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "athletic_intermediate",
+    "user_id": 166
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 167
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 168
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "asthma_patient",
+    "user_id": 169
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 170
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 171
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 172
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "asthma_patient",
+    "user_id": 173
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 174
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 175
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 176
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 177
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "post_injury_recovery",
+    "user_id": 178
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 179
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "post_injury_recovery",
+    "user_id": 180
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "post_injury_recovery",
+    "user_id": 181
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 182
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 183
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 184
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 185
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 186
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 187
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 188
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 189
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "asthma_patient",
+    "user_id": 190
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 191
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 192
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 193
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 194
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 195
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 196
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "post_injury_recovery",
+    "user_id": 197
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 198
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 199
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 200
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 201
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 202
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 203
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 204
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 205
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 206
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 207
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 208
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 209
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 210
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 211
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 212
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 213
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 214
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 215
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 216
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 217
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "asthma_patient",
+    "user_id": 218
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 219
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 220
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 221
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 222
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "asthma_patient",
+    "user_id": 223
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 224
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "asthma_patient",
+    "user_id": 225
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 226
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 227
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 228
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 229
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 230
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 231
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 232
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 233
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "asthma_patient",
+    "user_id": 234
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 5,
+    "archetype": "athletic_intermediate",
+    "user_id": 235
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 236
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 237
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 238
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 239
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 240
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 241
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 242
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 243
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 244
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 5,
+    "archetype": "athletic_intermediate",
+    "user_id": 245
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 246
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 247
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 248
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 249
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 250
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "athletic_intermediate",
+    "user_id": 251
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 252
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 253
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 254
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 255
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 256
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 257
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 258
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 259
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 260
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 5,
+    "archetype": "athletic_intermediate",
+    "user_id": 261
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 262
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 263
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "asthma_patient",
+    "user_id": 264
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 265
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 266
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 267
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 268
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 269
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 270
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 271
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 272
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 273
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 274
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 275
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 276
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 277
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "post_injury_recovery",
+    "user_id": 278
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 4,
+    "archetype": "athletic_intermediate",
+    "user_id": 279
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 280
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 281
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 282
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 283
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 284
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 285
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 286
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 287
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 288
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 289
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 4,
+    "archetype": "athletic_intermediate",
+    "user_id": 290
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 291
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "asthma_patient",
+    "user_id": 292
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 293
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 294
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "post_injury_recovery",
+    "user_id": 295
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 296
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 297
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 298
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 299
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 300
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 301
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 302
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 303
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 5,
+    "archetype": "athletic_intermediate",
+    "user_id": 304
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 305
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 306
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 307
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 308
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 309
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 310
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 311
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 312
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 313
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 314
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 315
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 316
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 317
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 318
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "asthma_patient",
+    "user_id": 319
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "post_injury_recovery",
+    "user_id": 320
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 321
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 322
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 323
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "athletic_intermediate",
+    "user_id": 324
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 325
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 326
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 327
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 328
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 329
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 330
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 331
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 332
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 4,
+    "archetype": "athletic_intermediate",
+    "user_id": 333
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 334
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 335
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 336
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 337
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 338
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "asthma_patient",
+    "user_id": 339
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 340
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "asthma_patient",
+    "user_id": 341
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 4,
+    "archetype": "athletic_intermediate",
+    "user_id": 342
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 343
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 344
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 4,
+    "archetype": "athletic_intermediate",
+    "user_id": 345
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "asthma_patient",
+    "user_id": 346
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 347
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 348
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 349
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 350
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 351
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 352
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 353
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 354
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 355
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 356
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 357
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 358
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 359
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "asthma_patient",
+    "user_id": 360
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 361
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 362
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 363
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 364
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 365
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 366
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 367
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 368
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "post_injury_recovery",
+    "user_id": 369
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 370
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 371
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 372
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 373
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 374
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 375
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "asthma_patient",
+    "user_id": 376
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 377
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 378
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 379
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "diabetic_patient",
+    "user_id": 380
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "asthma_patient",
+    "user_id": 381
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 382
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 383
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 384
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 385
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 386
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "asthma_patient",
+    "user_id": 387
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 388
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 4,
+    "archetype": "athletic_intermediate",
+    "user_id": 389
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 390
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 391
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 392
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 393
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 394
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 395
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 396
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 397
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 398
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 399
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 400
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "post_injury_recovery",
+    "user_id": 401
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 402
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 403
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 404
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "post_injury_recovery",
+    "user_id": 405
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 406
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 407
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 408
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 409
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 410
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 411
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 412
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "post_injury_recovery",
+    "user_id": 413
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 414
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 415
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 416
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 417
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 418
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "post_injury_recovery",
+    "user_id": 419
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 420
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 421
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 422
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 423
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 424
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 4,
+    "archetype": "athletic_intermediate",
+    "user_id": 425
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 426
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 4,
+    "archetype": "athletic_intermediate",
+    "user_id": 427
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 428
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 4,
+    "archetype": "athletic_intermediate",
+    "user_id": 429
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "asthma_patient",
+    "user_id": 430
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 431
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 432
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "athletic_intermediate",
+    "user_id": 433
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 434
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 435
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 436
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 437
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "stressed_office_worker",
+    "user_id": 438
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 439
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 4,
+    "archetype": "athletic_intermediate",
+    "user_id": 440
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 441
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 442
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 443
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "healthy_sedentary",
+    "user_id": 444
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 445
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 446
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 447
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 448
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 449
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 450
+  },
+  {
+    "conditions": [
+      "injury_recovery"
+    ],
+    "archetype_goals": [
+      "flexibility",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "post_injury_recovery",
+    "user_id": 451
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 452
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 453
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 454
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 455
+  },
+  {
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "diabetic_hypertensive",
+    "user_id": 456
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 457
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "stressed_office_worker",
+    "user_id": 458
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 459
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 460
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "healthy_active_young",
+    "user_id": 461
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "asthma_patient",
+    "user_id": 462
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 463
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 464
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 465
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 466
+  },
+  {
+    "conditions": [
+      "asthma"
+    ],
+    "archetype_goals": [
+      "endurance",
+      "flexibility"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "asthma_patient",
+    "user_id": 467
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 468
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 469
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 470
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 471
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 4,
+    "archetype": "healthy_active_young",
+    "user_id": 472
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 473
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 474
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 475
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 476
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 477
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 478
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "overweight_beginner",
+    "user_id": 479
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 480
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 481
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 482
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 483
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "muscle_gain",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 5,
+    "archetype": "healthy_active_young",
+    "user_id": 484
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 485
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 486
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "healthy_sedentary",
+    "user_id": 487
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 488
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 489
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 490
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 3,
+    "archetype": "hypertensive_senior",
+    "user_id": 491
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "hypertensive_senior",
+    "user_id": 492
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 493
+  },
+  {
+    "conditions": [],
+    "archetype_goals": [
+      "weight_loss",
+      "endurance"
+    ],
+    "equipment_level": 3,
+    "fitness_level": 2,
+    "archetype": "stressed_office_worker",
+    "user_id": 494
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 2,
+    "fitness_level": 3,
+    "archetype": "diabetic_patient",
+    "user_id": 495
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 496
+  },
+  {
+    "conditions": [
+      "hypertension"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "flexibility"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "hypertensive_senior",
+    "user_id": 497
+  },
+  {
+    "conditions": [
+      "obesity"
+    ],
+    "archetype_goals": [
+      "weight_loss"
+    ],
+    "equipment_level": 0,
+    "fitness_level": 1,
+    "archetype": "overweight_beginner",
+    "user_id": 498
+  },
+  {
+    "conditions": [
+      "type2_diabetes"
+    ],
+    "archetype_goals": [
+      "disease_mgmt",
+      "weight_loss"
+    ],
+    "equipment_level": 1,
+    "fitness_level": 2,
+    "archetype": "diabetic_patient",
+    "user_id": 499
+  }
+]

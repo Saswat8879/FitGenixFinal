@@ -1,0 +1,10 @@
+{
+  "name": "stress_detector",
+  "saved_at": "2026-03-12T19:59:55.335560",
+  "type": "StressDetector",
+  "loso_auc_mean": 1.0,
+  "loso_f1_mean": 0.9989593441358892,
+  "insample_auc": 0.9999997577013711,
+  "n_subjects": 500,
+  "n_samples": 10000
+}
