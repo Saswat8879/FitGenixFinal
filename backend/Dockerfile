@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 WORKDIR /opt/fitgenix
 
-RUN apt-get update && apt-get install -y --no-install-recommends gcc && \
+RUN apt-get update && apt-get install -y --no-install-recommends gcc libgomp1 libstdc++6 && \
     rm -rf /var/lib/apt/lists/*
 
 COPY backend/requirements.txt .
