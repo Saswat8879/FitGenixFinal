@@ -152,16 +152,80 @@ class MealPlanPredictor:
         norms[norms < 1e-6] = 1.0
         return (z / norms).astype(np.float32)
 
+    @staticmethod
+    def _normalize_food_schema(df: pd.DataFrame) -> pd.DataFrame:
+        """Ensure required columns exist across primary and fallback food datasets."""
+        out = df.copy()
+
+        if "name" not in out.columns:
+            out["name"] = [f"food_{i}" for i in range(len(out))]
+        out["name"] = out["name"].astype(str).fillna("").str.strip()
+
+        numeric_cols = ["calories", "protein_g", "carbs_g", "fat_g", "fiber_g", "sugar_g", "sodium_mg"]
+        for col in numeric_cols:
+            if col not in out.columns:
+                out[col] = 0.0
+            out[col] = pd.to_numeric(out[col], errors="coerce").fillna(0.0)
+
+        if "meal_type" not in out.columns:
+            slots = out["name"].apply(_meal_slots)
+            out["meal_type"] = [
+                _primary_meal_type(name, slot_list)
+                for name, slot_list in zip(out["name"], slots)
+            ]
+        else:
+            out["meal_type"] = out["meal_type"].fillna("").astype(str).str.strip().str.lower()
+            needs_fill = ~out["meal_type"].isin(["breakfast", "lunch", "dinner", "snack"])
+            if needs_fill.any():
+                inferred_slots = out.loc[needs_fill, "name"].apply(_meal_slots)
+                out.loc[needs_fill, "meal_type"] = [
+                    _primary_meal_type(name, slot_list)
+                    for name, slot_list in zip(out.loc[needs_fill, "name"], inferred_slots)
+                ]
+
+        inferred_diet = out["name"].apply(_diet_category)
+        if "diet_category" not in out.columns:
+            out["diet_category"] = inferred_diet
+        else:
+            out["diet_category"] = out["diet_category"].fillna("").astype(str).str.strip().str.lower()
+            invalid = ~out["diet_category"].isin(["vegan", "vegetarian", "eggetarian", "non_vegetarian"])
+            out.loc[invalid, "diet_category"] = inferred_diet.loc[invalid]
+
+        # Normalize boolean indicator columns used by scoring/planner.
+        if "vegan" not in out.columns:
+            out["vegan"] = (out["diet_category"] == "vegan").astype(int)
+        else:
+            out["vegan"] = pd.to_numeric(out["vegan"], errors="coerce").fillna(0).astype(int)
+
+        if "vegetarian" not in out.columns:
+            out["vegetarian"] = out["diet_category"].isin(["vegan", "vegetarian"]).astype(int)
+        else:
+            out["vegetarian"] = pd.to_numeric(out["vegetarian"], errors="coerce").fillna(0).astype(int)
+            out.loc[out["vegan"] > 0, "vegetarian"] = 1
+
+        if "low_sodium" not in out.columns:
+            out["low_sodium"] = (out["sodium_mg"] <= 140).astype(int)
+        if "diabetic_friendly" not in out.columns:
+            out["diabetic_friendly"] = ((out["sugar_g"] <= 8) & (out["fiber_g"] >= 2)).astype(int)
+        if "heart_healthy" not in out.columns:
+            out["heart_healthy"] = ((out["sodium_mg"] <= 300) & (out["fat_g"] <= 12)).astype(int)
+
+        if "food_id" not in out.columns:
+            out = out.reset_index(drop=True)
+            out["food_id"] = out.index + 1
+
+        return out
+
     def load(self):
         """Load preprocessed Indian food catalog and build embeddings."""
         try:
-            self.food_df = self._load_indian_food_df()
+            self.food_df = self._normalize_food_schema(self._load_indian_food_df())
             self.food_embeddings = self._build_food_embeddings(self.food_df)
             logger.info(f"MealPlanPredictor loaded from Indian CSV. {len(self.food_df)} foods.")
         except Exception as e:
             # Safe fallback keeps app available if CSV preprocessing fails.
             logger.warning(f"Falling back to processed foods due to: {e}")
-            self.food_df = pd.read_csv(PROCESSED_DIR / "foods_clean.csv")
+            self.food_df = self._normalize_food_schema(pd.read_csv(PROCESSED_DIR / "foods_clean.csv"))
             self.food_embeddings = np.load(PROCESSED_DIR / "food_embeddings.npy")
             logger.info(f"MealPlanPredictor fallback loaded. {len(self.food_df)} foods.")
         self._loaded = True
@@ -186,6 +250,9 @@ class MealPlanPredictor:
         """
         if not self._loaded:
             self.load()
+
+        # Defensive normalization for long-lived processes and legacy cached dataframes.
+        self.food_df = self._normalize_food_schema(self.food_df)
 
         calorie_target = user_profile.get("calorie_target", calorie_target)
         conditions = user_profile.get("conditions", [])
