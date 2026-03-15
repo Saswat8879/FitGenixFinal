@@ -1,4 +1,5 @@
 """Onboarding: submit survey → create profile, conditions, compute embedding, generate plans."""
+import logging
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from app.database import get_db
@@ -10,6 +11,7 @@ from app.services.risk_service import compute_diabetes_risk
 from app.services.plan_service import generate_workout, generate_diet_plan
 
 router = APIRouter(prefix="/onboarding", tags=["Onboarding"])
+logger = logging.getLogger(__name__)
 
 
 @router.post("/survey", response_model=OnboardingResponse)
@@ -51,21 +53,43 @@ def submit_survey(
     db.commit()
     db.refresh(user)
 
-    # Compute embedding + cluster
-    embedding_result = compute_user_embedding(user, db)
+    cluster_id = user.cluster_id
+    cluster_archetype = user.cluster_archetype
+    diabetes_risk = "Unknown"
+    workout_id = None
+    diet_plan_id = None
 
-    # Diabetes risk
-    risk_result = compute_diabetes_risk(user, db)
+    # Keep onboarding robust in production even if ML artifacts fail to load.
+    try:
+        embedding_result = compute_user_embedding(user, db)
+        cluster_id = embedding_result.get("cluster_id", user.cluster_id)
+        cluster_archetype = embedding_result.get("archetype", user.cluster_archetype)
+    except Exception as e:
+        logger.exception("Failed to compute user embedding during onboarding for user %s: %s", user.id, e)
 
-    # Generate initial plans
-    workout = generate_workout(user, db)
-    diet = generate_diet_plan(user, db)
+    try:
+        risk_result = compute_diabetes_risk(user, db)
+        diabetes_risk = risk_result.get("risk_category", "Unknown")
+    except Exception as e:
+        logger.exception("Failed to compute diabetes risk during onboarding for user %s: %s", user.id, e)
+
+    try:
+        workout = generate_workout(user, db)
+        workout_id = workout.id
+    except Exception as e:
+        logger.exception("Failed to generate workout during onboarding for user %s: %s", user.id, e)
+
+    try:
+        diet = generate_diet_plan(user, db)
+        diet_plan_id = diet.id
+    except Exception as e:
+        logger.exception("Failed to generate diet plan during onboarding for user %s: %s", user.id, e)
 
     return OnboardingResponse(
         message="Onboarding complete",
-        cluster_id=user.cluster_id,
-        cluster_archetype=user.cluster_archetype,
-        diabetes_risk=risk_result.get("risk_category", "Unknown"),
-        workout_id=workout.id,
-        diet_plan_id=diet.id,
+        cluster_id=cluster_id,
+        cluster_archetype=cluster_archetype,
+        diabetes_risk=diabetes_risk,
+        workout_id=workout_id,
+        diet_plan_id=diet_plan_id,
     )
