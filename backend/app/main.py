@@ -135,7 +135,7 @@ async def lifespan(app: FastAPI):
     try:
         ml_models.load_all()
     except Exception as e:
-        logger.error(f"ML model loading failed: {e}. Endpoints requiring ML will fail.")
+        logger.exception("ML model loading failed: %s. Endpoints requiring ML will fail.", e)
 
     # Start background scheduler
     from app.jobs.scheduler import start_scheduler, stop_scheduler
@@ -225,5 +225,7 @@ def health_check():
     return {
         "status": "healthy",
         "ml_loaded": ml_models.is_loaded,
+        "ml_component_status": ml_models.component_status,
+        "ml_error": ml_models.last_error,
         "database": "sqlite",
     }
