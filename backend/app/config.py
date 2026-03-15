@@ -37,7 +37,9 @@ class Settings(BaseSettings):
         # Support both repository layout (backend/ + ml/) and container layout (app/ + ml/).
         env_ml_root = os.getenv("ML_ROOT", "").strip()
         if env_ml_root:
-            return Path(env_ml_root)
+            env_path = Path(env_ml_root)
+            if env_path.exists():
+                return env_path
 
         candidates = [
             _BASE_DIR / "ml",
