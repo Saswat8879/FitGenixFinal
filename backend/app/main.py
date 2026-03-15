@@ -18,50 +18,50 @@ def _normalize_legacy_profile_values() -> None:
     """Map historical enum strings to current allowed values."""
     with engine.begin() as conn:
         conn.execute(text("""
-UPDATE profiles
-SET goal = CASE CAST(goal AS TEXT)
-    WHEN 'weight_loss' THEN 'lose_weight'
-    WHEN 'muscle_gain' THEN 'gain_muscle'
-    WHEN 'diabetes_management' THEN 'manage_condition'
-    ELSE goal
-END
-WHERE CAST(goal AS TEXT) IN ('weight_loss', 'muscle_gain', 'diabetes_management');
+            UPDATE profiles
+            SET goal = CASE CAST(goal AS TEXT)
+                WHEN 'weight_loss' THEN 'lose_weight'
+                WHEN 'muscle_gain' THEN 'gain_muscle'
+                WHEN 'diabetes_management' THEN 'manage_condition'
+                ELSE CAST(goal AS TEXT)
+            END
+            WHERE CAST(goal AS TEXT) IN ('weight_loss', 'muscle_gain', 'diabetes_management')
         """))
         conn.execute(text("""
             UPDATE profiles
-            SET coaching_style = CASE coaching_style
+            SET coaching_style = CASE CAST(coaching_style AS TEXT)
                 WHEN 'balanced' THEN 'moderate'
                 WHEN 'aggressive' THEN 'intense'
-                ELSE coaching_style
+                ELSE CAST(coaching_style AS TEXT)
             END
-            WHERE coaching_style IN ('balanced', 'aggressive')
+            WHERE CAST(coaching_style AS TEXT) IN ('balanced', 'aggressive')
         """))
         conn.execute(text("""
             UPDATE profiles
-            SET activity_level = CASE activity_level
+            SET activity_level = CASE CAST(activity_level AS TEXT)
                 WHEN 'moderate' THEN 'moderately_active'
-                ELSE activity_level
+                ELSE CAST(activity_level AS TEXT)
             END
-            WHERE activity_level IN ('moderate')
+            WHERE CAST(activity_level AS TEXT) IN ('moderate')
         """))
         conn.execute(text("""
             UPDATE profiles
-            SET work_style = CASE work_style
+            SET work_style = CASE CAST(work_style AS TEXT)
                 WHEN 'office' THEN 'desk_job'
                 WHEN 'field' THEN 'field_work'
                 WHEN 'manual_labor' THEN 'field_work'
-                ELSE work_style
+                ELSE CAST(work_style AS TEXT)
             END
-            WHERE work_style IN ('office', 'field', 'manual_labor')
+            WHERE CAST(work_style AS TEXT) IN ('office', 'field', 'manual_labor')
         """))
         conn.execute(text("""
             UPDATE profiles
-            SET diet_type = CASE diet_type
+            SET diet_type = CASE CAST(diet_type AS TEXT)
                 WHEN 'standard' THEN 'non_vegetarian'
                 WHEN 'balanced' THEN 'non_vegetarian'
-                ELSE diet_type
+                ELSE CAST(diet_type AS TEXT)
             END
-            WHERE diet_type IN ('standard', 'balanced')
+            WHERE CAST(diet_type AS TEXT) IN ('standard', 'balanced')
         """))
 
 
