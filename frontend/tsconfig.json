@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "lib": [
       "dom",
       "dom.iterable",
@@ -23,9 +24,9 @@
     ],
     "paths": {
       "@/api": ["./lib/api/index"],
-      "@/api/": ["./lib/api/"],
-      "@/": ["./"]
-},
+      "@/api/*": ["./lib/api/*"],
+      "@/*": ["./*"]
+    },
     "target": "ES2017"
   },
   "include": [
