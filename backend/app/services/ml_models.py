@@ -1,16 +1,14 @@
 """Singleton loader for all ML model artifacts. Loads once at startup."""
 import sys
 import logging
-from pathlib import Path
 from typing import Callable, Any
+from app.config import settings
 
 logger = logging.getLogger(__name__)
 
-ML_ROOT = Path(__file__).resolve().parent.parent.parent.parent / "ml"
 
-
-def _ensure_ml_path():
-    ml_str = str(ML_ROOT)
+def _ensure_ml_path(ml_root):
+    ml_str = str(ml_root)
     if ml_str not in sys.path:
         sys.path.insert(0, ml_str)
 
@@ -50,15 +48,16 @@ class MLModels:
             "stress": False,
         }
 
-        _ensure_ml_path()
+        ml_root = settings.ml_root
+        _ensure_ml_path(ml_root)
 
-        saved_models_dir = ML_ROOT / "saved_models"
-        processed_dir = ML_ROOT / "data" / "processed"
+        saved_models_dir = ml_root / "saved_models"
+        processed_dir = ml_root / "data" / "processed"
         if not saved_models_dir.exists() or not processed_dir.exists():
             self._loaded = False
             self._last_error = (
                 f"ML artifact directories missing. saved_models={saved_models_dir.exists()} "
-                f"processed={processed_dir.exists()} (ML_ROOT={ML_ROOT})"
+                f"processed={processed_dir.exists()} (ML_ROOT={ml_root})"
             )
             raise FileNotFoundError(self._last_error)
 
@@ -69,7 +68,7 @@ class MLModels:
             from inference.plan_meals import MealPlanPredictor
             from inference.detect_stress import StressPredictor
 
-            logger.info("Loading ML models from %s", ML_ROOT)
+            logger.info("Loading ML models from %s", ml_root)
             self.diabetes = self._load_component("diabetes", DiabetesRiskPredictor)
             self.embedding = self._load_component("embedding", UserEmbeddingPredictor)
             self.exercise = self._load_component("exercise", ExerciseRecommendationPredictor)
