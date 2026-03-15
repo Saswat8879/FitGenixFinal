@@ -16,7 +16,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
         preload="auto"
         aria-hidden="true"
       >
-        <source src="/assets/background_auth.mp4?v=20260313" type="video/mp4" />
+        <source src="/assets/background_auth.mp4?v=20260316" type="video/mp4" />
       </video>
       <div className="absolute inset-0 z-10 bg-gradient-to-br from-white/88 via-blue-50/84 to-emerald-50/86" />
 
