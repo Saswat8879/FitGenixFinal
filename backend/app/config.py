@@ -34,7 +34,21 @@ class Settings(BaseSettings):
 
     @property
     def ml_root(self) -> Path:
-        return _BASE_DIR.parent / "ml"
+        # Support both repository layout (backend/ + ml/) and container layout (app/ + ml/).
+        env_ml_root = os.getenv("ML_ROOT", "").strip()
+        if env_ml_root:
+            return Path(env_ml_root)
+
+        candidates = [
+            _BASE_DIR / "ml",
+            _BASE_DIR.parent / "ml",
+        ]
+        for candidate in candidates:
+            if candidate.exists():
+                return candidate
+
+        # Fallback keeps behavior deterministic even before artifacts are mounted.
+        return candidates[0]
 
     @property
     def ml_models_dir(self) -> Path:
