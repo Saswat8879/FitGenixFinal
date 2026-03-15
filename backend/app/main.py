@@ -18,14 +18,14 @@ def _normalize_legacy_profile_values() -> None:
     """Map historical enum strings to current allowed values."""
     with engine.begin() as conn:
         conn.execute(text("""
-            UPDATE profiles
-            SET goal = CASE goal
-                WHEN 'weight_loss' THEN 'lose_weight'
-                WHEN 'muscle_gain' THEN 'gain_muscle'
-                WHEN 'diabetes_management' THEN 'manage_condition'
-                ELSE goal
-            END
-            WHERE goal IN ('weight_loss', 'muscle_gain', 'diabetes_management')
+UPDATE profiles
+SET goal = CASE CAST(goal AS TEXT)
+    WHEN 'weight_loss' THEN 'lose_weight'
+    WHEN 'muscle_gain' THEN 'gain_muscle'
+    WHEN 'diabetes_management' THEN 'manage_condition'
+    ELSE goal
+END
+WHERE CAST(goal AS TEXT) IN ('weight_loss', 'muscle_gain', 'diabetes_management');
         """))
         conn.execute(text("""
             UPDATE profiles
